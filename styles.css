@@ -43,3 +43,12 @@ footer{display:flex;justify-content:center;padding:28px 24px;color:var(--muted);
 .project-visual figcaption{margin:9px 3px 1px;color:#4d4c48;font-size:13px;line-height:1.45}
 @media(max-width:700px){.case{grid-template-columns:1fr;gap:18px}.project-visual{width:100%;max-width:680px}}
 @media print{.project-visual{display:none!important}}
+.experience{padding-top:68px;padding-bottom:68px}
+.timeline{border-top:1px solid var(--ink)}
+.timeline article{display:grid;grid-template-columns:180px minmax(0,1fr);gap:30px;padding:23px 0;border-bottom:1px solid var(--line)}
+.timeline-date{margin:0;color:var(--accent);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.timeline h3{margin:0 0 6px;font-size:16px;font-weight:800}
+.timeline article div p{max-width:780px;margin:0;color:var(--muted);font-size:14px}
+.case-label{margin:28px 0 -17px;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+@media(max-width:700px){.timeline article{grid-template-columns:1fr;gap:5px;padding:20px 0}.experience{padding-top:54px;padding-bottom:54px}}
+@media(max-width:760px){.top nav{display:none}}
